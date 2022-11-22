@@ -11,7 +11,7 @@ res = lambda x: x*num
 
 print(res(num))
 """
-
+# Lambda function update
 
 def func_compute(n):
     return lambda x: x * n
