@@ -17,5 +17,5 @@ class Employee(Person):
 emp = Person("Geek1")
 print(emp.getName(), emp.isEmployee())  
 
-emp = Employee("Geek2")#
+emp = Employee("Geek2")
 print(emp.getName(), emp.isEmployee())
