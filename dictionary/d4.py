@@ -8,3 +8,8 @@ thisdict = {
 mydict = thisdict.copy()
 
 print(mydict)
+
+# Make a copy of a dictionary with the dict() function:
+
+dict_copy = dict(thisdict)
+print(dict_copy)
