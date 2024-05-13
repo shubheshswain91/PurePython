@@ -34,7 +34,9 @@ class Board:
         return all([valid_in_row, valid_in_col, valid_in_square])
     
     def solver(self):
-        if (next_empty := self.find_empty_cell() is None):
+        if (next_empty := self.find_empty_cell()) is None:
             return True
+        for guess in range(1,10):
+            return guess
 
     
