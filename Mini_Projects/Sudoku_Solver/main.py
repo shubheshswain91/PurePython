@@ -33,4 +33,8 @@ class Board:
         valid_in_square = self.valid_in_square(row, col, num)
         return all([valid_in_row, valid_in_col, valid_in_square])
     
+    def solver(self):
+        if (next_empty := self.find_empty_cell() is None):
+            return True
+
     
