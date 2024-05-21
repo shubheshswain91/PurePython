@@ -1,6 +1,6 @@
 # Write a Python program to create a tuple with different data types.
 
-tup = (100, "Euro", [1, "Spain"], {"mykey": "SECRET", "yourKey": "ALEX"}, (101, "Radio"))
+tup = (100, "Euro", [1, "Spain"], {"mykey": "SECRET", "yourKey": "ALEX"}, (101, "Radio"), 100, "Euro")
 
 
 print(tup)
