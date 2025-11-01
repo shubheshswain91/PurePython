@@ -1,6 +1,14 @@
 from typing import List
 
 
+""" 
+Use case
+Let’s look at a test case example where the Python code simulates a cake factory and performs different functions. These include choosing different sizes and flavors of a cake, including small, medium, and large, and chocolate or vanilla. In addition, the simple class allows developers to add sprinkles or cherries to the cake, return a list of ingredients, and return the price of the cake based on size and toppings.
+
+
+
+ """
+
 class CakeFactory:
  def __init__(self, cake_type: str, size: str):
    self.cake_type = cake_type
